@@ -7,7 +7,7 @@
 	<title>Code Harbor</title>
 </head>
 <body>
-	<header class="main-header">
+	<header class="main-header" id="mainHeader">
 		<h1 class="main-header--title visually-hidden">Сайт компании Code Harbor</h1>
 
 		<div class="main-header--wrapper">
@@ -16,11 +16,11 @@
 
 	<div class="main-nav">
 		<ul class="nav-list">
-			<li class="nav-item"><a href="#">Команда</a></li>
-			<li class="nav-item"><a href="#">Программа</a></li>
-			<li class="nav-item"><a href="#">Цена</a></li>
-			<li class="nav-item"><a href="#">Для кого</a></li>
-			<li class="nav-item"><a href="#">Контакты</a></li>
+			<li class="nav-item"><a href="#command">Команда</a></li>
+			<li class="nav-item"><a href="#programm">Программа</a></li>
+			<li class="nav-item"><a href="#price">Цена</a></li>
+			<li class="nav-item"><a href="#students">Для кого</a></li>
+			<li class="nav-item"><a href="#contacts">Контакты</a></li>
 		</ul>
 		</div>
 		<form action="php.php" class="main-header--toggle-ru-uk">
@@ -39,7 +39,8 @@
 	<h2 class="content-name">Front-End</h2>
 	<span class="content-line"></span>
 	<p class="content-text">Получи профессию программиста с нуля</p>
-	<button class="content-button" type="button">Узнать больше о программе</button>
+	<a href="#programm">
+	<button class="content-button" type="button">Узнать больше о программе</button></a>
 </div>
 </header>
 <main>
@@ -89,7 +90,7 @@
 			<p class="work-hours-text">часов</p></div>
 	</div>
 </section>
-<section class="command">
+<section class="command " id="command">
 	<h2 class="command-title">Команда</h2>
 	<span class="command-line"></span>
 	
@@ -263,7 +264,7 @@
   </div>
   
 </section>
-<section class="students">
+<section class="students" id="students">
 	<h2 class="students-title">Для кого</h2>
 	<span class="student-line"></span>
 	<div class="sutentds-content">
@@ -289,12 +290,12 @@
 		</div>
 	</div>
 </section>
-<section class="study-programm">
-	<h2 class="study-programm-title">
+<section class="study-programm" id="programm">
+	<h2 class="study-programm-title" >
 		Программа
 	</h2>
-	<span class="study-programm__line"></span>
-	<p class="study-programm__text">
+	<span class="study-programm__line" ></span>
+	<p class="study-programm__text" >
 		За основу взята модель T-Shape: каждое занятие Углубляет знания как профессионала, либо расширяет опят в смежных областях.
 	</p>
 	<div class="study-programm__button">
@@ -312,7 +313,7 @@
 		<li class="study-programm__item another-icon"><span>Bonus</span><p>Интенсив</p></li>
 	</ul>
 </section>
-<section class="programm-price">
+<section class="programm-price" id="price">
 	<h2 class="visually-hidden">Стоимость и контакты</h2>
 	<div class="programm-price__wrapper">
 		<span class="programm-price__or">или</span>
@@ -428,7 +429,7 @@
 	<h2 class="visually-hidden">Галерея Code Harbor</h2>
 	<img src="img/foto.jpg" alt="foto">
 </section>
-<section class="contacts">
+<section class="contacts" id="contacts">
 	<div class="contacts-wrapper">
 		<div class="contacts-content">
 			<h2 class="contacts-title">Наши контакты</h2>
@@ -464,14 +465,15 @@
 <footer class="main-footer">
 	<h3 class="visually-hidden">Подвал сайта CODEHARBOR</h3>
 	<div class="main-footer__wrapper">
-	<img src="img/logo.jpg" alt="logo" class="footer-logo" width="352" height="73">
+		<a href="#">
+	<img src="img/logo.jpg" alt="logo" class="footer-logo" width="352" height="73"></a>
 	<nav class="footer-nav">
 		<ul class="footer-nav-list">
-			<li class="footer-nav-item"><a href="#">Команда</a></li>
-			<li class="footer-nav-item"><a href="#">Программа</a></li>
-			<li class="footer-nav-item"><a href="#">Цена</a></li>
-			<li class="footer-nav-item"><a href="#">Для кого</a></li>
-			<li class="footer-nav-item"><a href="#">Контакты</a></li>
+			<li class="footer-nav-item"><a href="#command">Команда</a></li>
+			<li class="footer-nav-item"><a href="#programm">Программа</a></li>
+			<li class="footer-nav-item"><a href="#price">Цена</a></li>
+			<li class="footer-nav-item"><a href="#students">Для кого</a></li>
+			<li class="footer-nav-item"><a href="#contacts">Контакты</a></li>
 		</ul>
 	</nav>
 	<p class="footer-copyright">©Code Harbor, 2019</p>
@@ -479,7 +481,8 @@
 </footer>
 <section class="nav-button">
 	<h3 class="visually-hidden">Кнопка навигации</h3>
-	<div class="nav-button-scroll"></div>
+	<a href="#mainHeader">
+	<div class="nav-button-scroll"></div></a>
 </section>
 </main>
 
