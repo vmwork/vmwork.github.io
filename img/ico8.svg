@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="77" viewBox="0 0 68 77">
+    <defs>
+        <path id="a" d="M.156 1.54l6.72 66.539a1.4 1.4 0 0 0 1.007 1.205l26.465 7.604a1.4 1.4 0 0 0 .781-.002l25.877-7.595a1.4 1.4 0 0 0 1-1.222L67.769 1.52A1.4 1.4 0 0 0 66.374 0H1.549A1.4 1.4 0 0 0 .156 1.54z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#17BC82" stroke-width="4.2" d="M2.323 2.1l6.595 65.296 25.815 7.417 25.223-7.402L65.61 2.1H2.323z"/>
+        <text fill="#FFF" font-family="DINPro-Black, DIN Pro" font-size="14.7" font-weight="700">
+            <tspan x="14.83" y="32.5">HTML</tspan>
+        </text>
+    </g>
+</svg>
