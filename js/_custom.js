@@ -1,12 +1,16 @@
 'use strict'
-var toggleButton = document.querySelector('.head-nav__burger');
+var toggleButton = document.querySelector('.burger-button');
+var toggleBurger = document.querySelector('.head-nav__burger');
+
 var activeMenu = document.querySelector('.head-nav-content');
 var toggleButtonHandler = function(){
-	toggleButton.classList.toggle('show-menu');
+	toggleBurger.classList.toggle('show-menu');
 	activeMenu.classList.toggle('activete-menu');
 }
 
 toggleButton.addEventListener('click', toggleButtonHandler);
+
+
 
  var multiItemSlider = (function () {
 
