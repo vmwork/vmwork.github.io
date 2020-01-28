@@ -1,0 +1,266 @@
+.classes-numbers{
+	min-height: 753px;
+	background-image: url(../img/4monts.jpg);
+
+	background-size: cover;
+}
+.classes-numbers__wrapper{
+	width: 320px;
+	margin: 0 auto;
+}
+.classes-numbers__title{
+	padding-top: 67px;
+	width: 239px;
+  	min-height: 56px;
+    font-size: 46px;
+  	font-weight: 300;
+   	line-height: 1.22;
+    color: $color-light-black;
+    text-transform: uppercase;
+    margin-left: 12px;
+    letter-spacing: 0.4px;
+}
+.classes-numbers__line{
+		display: block;
+	  width: 35px;
+  height: 3px;
+  border-radius: 1px;
+  margin-left: 18px;
+  margin-top: 10px;
+  background-color: $background-color-purple;
+}
+.classes-numbers__wrapper-content{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 23px;
+
+}
+.classes-numbers-mobile{
+	width: 136px;
+	height: 136px;
+	border-radius: 10px;
+	margin-left: 16px;
+	margin-top: 16px;
+	text-align: center;
+}
+.classes-numbers-mobile span{
+	display: block;
+	margin-top: 22px;
+	height:60px;
+	font-size: 76px;
+   font-weight: 900;
+   line-height: 0.55;
+}
+.classes-numbers-mobile:nth-child(3) span{
+	margin-top: 23px;
+}
+.classes-numbers-mobile:nth-child(4) span,
+.classes-numbers-mobile:nth-child(5) span{
+	margin-top: 33px;
+}
+.classes-numbers-mobile:nth-child(3) p{
+	display: inline-block;
+	width: 80px;
+}
+.classes-numbers-mobile:nth-child(6) span{
+	margin-top: 35px;
+	margin-left: 18px;
+	text-align: left;
+
+}
+.classes-numbers-mobile:nth-child(6) span+div{
+	font-size: 48px;
+	margin-top: -75px;
+	margin-left: 90px;
+
+}
+.classes-numbers-mobile p{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.43;
+}
+
+
+
+.classes-numbers__prodgect,
+.classes-numbers__period{
+	background-color: $background-color-gold;
+	color: $background-color-purple;
+}
+.classes-numbers__mentors,
+.classes-numbers__lesson{
+	background-color: $background-color-purple;
+	color: $background-color-gold;
+}
+.classes-numbers__groupe,
+.classes-numbers__work-hours{
+	background-color: $background-color-pink;
+	color: $background-color-gold;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1440px){
+	.classes-numbers{
+	min-height: 1188px;
+	
+}
+.classes-numbers__wrapper{
+
+	width: 1240px;
+	margin: 0 auto;
+/*	padding-left: 15px;*/
+
+
+}
+.classes-numbers__title{
+    margin-left: -6px;
+    width: 450px;
+    padding-top: 216px;
+      font-size: 46px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+}
+.classes-numbers__line{
+	margin-top: 3px;
+  margin-left: -2px;
+}
+.classes-numbers__wrapper-content{
+justify-content: space-between;
+margin-top: 0px;
+margin-left: 0px;
+
+
+}
+.classes-numbers-mobile{
+	width: 283px;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	height: 283px;
+	margin-top: 37px;
+}
+.classes-numbers__prodgect,
+.classes-numbers__work-hours{
+	width: 603px;
+	display: flex;
+	background-color: $background-color-gold;
+	color: $background-color-purple;
+}
+.classes-numbers__prodgect span,
+.classes-numbers-mobile:nth-child(6) span{
+	width: 145px;
+  margin-top: 110px;
+  text-align: left;
+  margin-left: 89px;
+  font-size: 236px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.18;
+  letter-spacing: normal;
+}
+.classes-numbers__prodgect p{
+	  width: 204px;
+  height: 85px;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 3px;
+  margin-top: 138px;
+}
+.classes-numbers__work-hours p{
+   width: 96px;
+  height: 42px;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  margin-top: 180px;
+  margin-left: 0px;
+}
+.classes-numbers-mobile:nth-child(6) span+div{
+	margin-top: 105px;
+	margin-left: 110px;
+	width: 65px;
+  height: 42px;
+  font-size: 118px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.36;
+  letter-spacing: normal;
+
+}
+.classes-numbers-mobile:nth-child(2) span,
+.classes-numbers-mobile:nth-child(3) span,
+.classes-numbers-mobile:nth-child(4) span,
+.classes-numbers-mobile:nth-child(5) span{
+	margin-top: 95px;
+	 font-size: 96px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.44;
+  letter-spacing: normal;
+  text-align: center;
+}
+.classes-numbers-mobile:nth-child(4) span,
+.classes-numbers-mobile:nth-child(5) span{
+	margin-top: 100px;
+}
+.classes-numbers-mobile:nth-child(2) p,
+.classes-numbers-mobile:nth-child(3) p{
+display: inline-block;
+width: 150px;
+margin-top: 20px;
+
+font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+}
+.classes-numbers-mobile:nth-child(3) p{
+	width: 80px;
+}
+.classes-numbers-mobile:nth-child(4) p,
+.classes-numbers-mobile:nth-child(5) p{
+display: inline-block;
+width: 150px;
+margin-top: 25px;
+
+font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+}
+.classes-numbers__period{
+	background-color: $background-color-purple;
+	color: $background-color-gold;
+}
+.classes-numbers__lesson{
+	background-color: $background-color-pink;
+	color: $background-color-gold;
+}
+}

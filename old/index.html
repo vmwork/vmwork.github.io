@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Code Harbor</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</head>
+<body>
+	<header class="main-header" id="mainHeader">
+		<h1 class="visually-hidden">Сайт компании Code Harbor</h1>
+		<div class="main-header__wrapper">
+		<div class="head">
+			<div class="head__logo-wrapper">
+			<a class="head__logo" href="#mainHeader"></a>
+			</div>
+			<nav class="head-nav" >
+				<button class="burger-button" >
+				<div class="head-nav__burger"></div>
+				</button>
+				<div class="head-nav-content ">
+				<ul class="nav-list ">
+	<li class="nav-item"><a href="#command">Команда</a></li>
+	<li class="nav-item"><a href="#programm">Программа</a></li>
+	<li class="nav-item"><a href="#price">Цена</a></li>
+	<li class="nav-item"><a href="#students">Для кого</a></li>
+	<li class="nav-item"><a href="#contacts">Контакты</a></li>
+				</ul>
+				<div class="head-nav__aside-menu">
+				<form action="php.php" class="main-header--toggle-ru-uk">
+			<input id="ru" type="radio" name="langvich" checked class="visually-hidden">
+			<label for="ru">Рус </label>
+			<span>/</span>
+			<input id="uk" type="radio" name="langvich" class="visually-hidden">
+			<label for="uk"> Укр</label>
+		</form>
+	<div class="main-header__phone">
+		<a href="tel:+380932321122">+38 093 232 11 22</a>
+	</div>
+			</div>
+			</div>
+			</nav>
+			</div>
+
+
+
+
+		<div class="main-header-content-block">
+			<p class="content-block-title">Теория — Практика — Трудоустройство</p>
+	<h2 class="content-block-name">Front-End</h2>
+	<span class="content-block-line line"></span>
+	<p class="content-block-text">Получи профессию программиста с нуля</p>
+	<a href="#programm">
+	<button class="content-block-button" type="button">Узнать больше о программе</button></a>
+		</div>
+		</div>
+		
+	</header>
+	<main>
+		<section class="advantages">
+		<div class="advantages-wrapper">
+		<h2 class="advantages-title">Почему мы?</h2>
+		<span class="advantages-line line"></span>
+		<div class="advantages-content">
+			<div class="content-mentors">
+				<img src="img/mentors.svg" alt="Наставники в команде">
+				<p class="mentors-title">5 наставников в команде</p>
+				<p class="mentor-text">которые сопровождают вас на протяжении всего обучения</p>
+			</div>
+			<div class="content-balance">
+					<img src="img/balance.svg" alt="Баланс">
+				<p class="balance-title">Баланс теории и практики</p>
+				<p class="balance-text">обучение построено вокруг понимания материала, а не заучивания</p>
+			</div>
+			<div class="content-test-interviews">		<img src="img/interviews.svg" alt="Собеседования">
+				<p class="content-test-interviews-title">Тестовые собеседования</p>
+				<p class="content-test-interviews-text">последнее занятие курса подготовка к поиску первой работы</p>
+			</div>
+			<div class="content-escort"><img src="img/escort.svg" alt="Сопровождение">
+				<p class="escort-title">Сопровождение после курса</p>
+				<p class="escort-text">после окончания курса, мы не забываем о своих студентах и помогаем с поиском работы</p></div>
+
+		</div>
+		</div>
+	</section>
+	 <section class="classes-numbers">
+	 	<div class="classes-numbers__wrapper">
+		<h2 class="classes-numbers__title">Занятия в цифрах</h2>
+		<span class="classes-numbers__line line"></span>
+		<div class="classes-numbers__wrapper-content">
+		<div class="classes-numbers-mobile classes-numbers__prodgect 
+		">
+			<span>3</span>
+			<p class="prodgect-text">проекта для портфолио</p>
+		</div>
+		<div class="classes-numbers-mobile classes-numbers__mentors 
+		"><span>5</span>
+			<p class="mentors-text">сопровождающих менторов</p></div>
+		<div class="classes-numbers-mobile classes-numbers__groupe 
+		"><span>12</span>
+			<p class="groupe-text">человек в группе</p></div>
+		<div class="classes-numbers-mobile classes-numbers__period 
+		"><span>16</span>
+			<p class="period-text">недель</p></div>
+		<div class="classes-numbers-mobile classes-numbers__lesson 
+		"><span>32</span>
+			<p class="lesson-text">занятия</p></div>
+		<div class="classes-numbers-mobile classes-numbers__work-hours 
+		"><span>60</span><div>+</div>
+			<p class="work-hours-text">часов</p></div>
+	</div>
+	</div>
+</section>
+
+<section class="command " id="command">
+	<div class="command-wrapper">
+	<h2 class="command-title">Команда</h2>
+	<span class="command-line"></span>
+
+ <div class="slider">
+    <div class="slider__wrapper">
+      <div class="slider__item">
+        <div style="height: 250px; ">
+        <div class="slider__item--block">
+        		<img src="img/slide1.jpg" alt="">
+        		<p class="slider__item-name">Святослав Светличный</p>
+        		<a href="#" style="color: #fe3114" class="slider__item-icon">Преподаватель</a>
+        	<p class="slider__item-skill">
+        		JavaScript developer, 5 лет опыта разработки веб приложений, Окончил КНУ им. Тараса Шевченка, ф-т кибернетики Team Lead Kozak Group, Ukraine
+        	</p>
+        	</div></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 250px; ">
+        <div class="slider__item--block slider__item--margin-left">
+        		<img  src="img/slide2.jpg" alt="">
+        		<p class="slider__item-name">Николай Гринько</p>
+        		<a href="#" style="color: #01ab91 " class="slider__item-icon2">Преподаватель</a>
+        	<p class="slider__item-skill">
+        		Frontend developer, окончил.. 4 года.. Fullstack developer Интеграл буд, Ukrainet
+        	</p>
+        	</div></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 250px; ">
+        <div class="slider__item--block slider__item--margin-left2">
+        		<img src="img/slide31.png" alt="">
+        		<p class="slider__item-name margintop">Андрей Кисилевский</p>
+        		<a  href="#" style="color: #a693ed " class="slider__item-icon3">Ментор</a>
+        	<p class="slider__item-skill">
+        		Frontend developer, ... 2 года название компании, UK {Название спецкурса}
+        	</p>
+        	</div></div>
+      </div>
+      <div class="slider__item">
+        <div style="height: 250px; "><div class="slider__item--block slider__item--margin-left3">
+        		<img src="img/slide4.jpg" alt="">
+        		<p class="slider__item-name">Юрий Мартынчик</p>
+        		<a href="#" style="color: #be146d; " class="slider__item-icon4">Ментор</a>
+        	<p class="slider__item-skill">
+        		QA {?}, Ubisoft, опыт..<br> {Название спецкурса}
+        	</p>
+        	</div></div>
+      </div>
+    </div>
+    <a class="slider__control slider__control_left" href="#" role="button"></a>
+    <a class="slider__control slider__control_right" href="#" role="button"></a>
+  </div></div>
+		</section>
+
+	
+<section class="students" id="students">
+	<div class="students-wrapper">
+	<h2 class="students-title">Для кого</h2>
+	<span class="student-line"></span>
+	<div class="sutentds-content">
+		<div class="content content-block1">
+			<img src="img/woomen.jpg" alt="">
+			<span></span>
+			<p>Желающим сменить<br> профессию и перейти в IT</p>
+		</div>
+		<div class="content content-block2">
+			<img src="img/men.jpg" alt="">
+			<span></span>
+			<p>Студентам - начните зарабатывать совмещая с учебой</p>
+		</div>
+		<div class="content content-block3">
+			<img src="img/woomen2.jpg" alt="">
+			<span></span>
+			<p>Желающим попробовать работу фриланс - учитесь и работайте не отрываясь от основной занятости</p>
+		</div>
+		<div class="content content-block4">
+			<img src="img/men2.jpg" alt="">
+			<span></span>
+			<p>Менеджерам в IT<br> - вы работаете с разработчиками и желаете понять процессы изнутри</p>
+		</div>
+	</div>
+	</div>
+</section>
+	
+<section class="study-programm" id="programm">
+	<h2 class="study-programm-title" >
+		Программа
+	</h2>
+	<span class="study-programm__line" ></span>
+	<p class="study-programm__text" >
+		За основу взята модель T-Shape: каждое занятие углубляет знания как профессионала, либо расширяет опят в смежных областях.
+	</p>
+	<div class="study-programm__button">
+		<button class="study-programm__button--horizontal vertical-mod">Вертикальные</button>
+	<button class="study-programm__button--vertical horizontal-mod">Горизонтальные</button>
+	
+	</div>
+	<ul class="study-programm__list study-programm__list-1 ">
+		<li class="study-programm__item ">
+			<span>Тема 1</span>
+			<p>HTML</p></li>
+		<li class="study-programm__item"><span>Тема 2</span><p>CSS</p></li>
+		<li class="study-programm__item"><span>Тема 3</span><p>SASS</p></li>
+		<li class="study-programm__item"><span>Тема 4</span><p>JavaScript</p></li>
+		<li class="study-programm__item"><span>Тема 5</span><p>Git</p></li>
+		<li class="study-programm__item another-icon"><span>Bonus</span><p>Интенсив</p></li>
+	</ul>
+	<ul class="study-programm__list study-programm__list-2 hidden">
+		<li class="study-programm__item ">
+			<span>Тема 1</span>
+			<p>Тестирование</p></li>
+		<li class="study-programm__item"><span>Тема 2</span><p>Scrum</p></li>
+		<li class="study-programm__item"><span>Тема 3</span><p>Фриланс</p></li>
+		<li class="study-programm__item"><span>Тема 4</span><p>Собеседования</p></li>
+		<li class="study-programm__item"><span>Тема 5</span><p>Алгоритмика</p></li>
+		
+	</ul>
+</section>
+
+<section class="programm-price" id="price">
+	<h2 class="visually-hidden">Стоимость и контакты</h2>
+	<div class="programm-price__wrapper">
+		
+		<div class="programm-price__price-block">
+			<p class="programm-price__price">Цена:</p>
+			<p class="programm-price__price-summ">3500 <span>грн/мес</span></p>
+			<span class="programm-price__price-summ--oll-curs">при оплате за весь курс</span>
+			<div class="programm-price__description-block1">
+				<p>2 раза в неделю, по понедельникам и четвергам с 19:00 по 21:00</p>
+			</div>
+			<div class="programm-price__description-block2">
+				<p>Интенсив в субботу с 10:00 по 14:30</p>
+			
+			<span class="programm-price__or">или</span></div>
+		</div>
+		<div class="programm-price__contact-block">
+			<p class="contact-block__title">Записаться</p>
+			<p class="contact-block__description">Пожалуйста оставьте свой номер телефона и мы с радостью ответим на ваши вопросы о профессии</p>
+			<form action="#" class="contact-block__form">
+				<span class="contact-block-title"></span>
+<input type="tel" class="phone-mask" name="phone" required maxlength="15"  minlength="15">
+
+				<input class="contact-block__button" type="submit" value="Перезвоните мне">
+				</form>
+				<p class="contact-block__footer">Либо позвоните 
+	<span class="contact-block__footer--span"> 
+	по номеру</span> +380932321122</p>
+			
+		</div>
+	</div>
+</section>
+
+<section class="after-training">
+	<div class="after-training__content-wrapper">
+	<h2 class="after-training-title">Через 4 месяца обучения:</h2>
+	<span class="after-training--line line"></span>
+	<div class="after-training-wrapper">
+		<div class="after-training__block">
+			<img src="img/ico6.svg" alt="icon">
+			<p>У вас есть портфолио</p>
+		</div>
+		<div class="after-training__block">
+			<img src="img/ico7.svg" alt="icon">
+			<p>Способны найти первую работу</p>
+		</div>
+		<div class="after-training__block">
+			<img src="img/ico8.png" alt="icon" >
+			<p>Умеете верстать веб сайты</p>
+		</div>
+		<div class="after-training__block">
+			<img src="img/ico9.svg" alt="icon">
+			<p>Умеете писать качественный код</p>
+		</div>
+		<div class="after-training__block">
+			<img src="img/ico10.svg" alt="icon">
+			<p>Представляете, как устроен рынок IT</p>
+		</div>
+		<div class="after-training__block">
+			<img src="img/ico11.svg" alt="icon">
+			<p>Знаете, как<br> развиваться дальше</p>
+		</div>
+		
+	</div>
+	</div>
+</section>
+
+<section class="gallery">
+	<h2 class="visually-hidden">Галерея Code Harbor</h2>
+	  
+
+
+
+<div class="gallery-slider">
+    <div class="gallery-slider__wrapper">
+      <div class="gallery-slider__items">
+        <div class="gallery-slider__item gallery-slider__item_1">
+          
+        </div>
+          
+        <div class="gallery-slider__item gallery-slider__item_2">
+         
+        </div>
+        <div class="gallery-slider__item gallery-slider__item_3">
+         
+        </div>
+          
+          <div class="gallery-slider__item gallery-slider__item_4">
+        
+        </div>
+            <div class="gallery-slider__item gallery-slider__item_5">
+       
+        </div>
+           <div class="gallery-slider__item gallery-slider__item_6">
+          
+        </div>
+           <div class="gallery-slider__item gallery-slider__item_7">
+       
+        </div>
+         
+      </div>
+      <a class="gallery-slider__control gallery-slider__control_prev" href="#" role="button"></a>
+      <a class="gallery-slider__control gallery-slider__control_next" href="#" role="button"></a>
+    </div>	
+
+    <a class="gallery-slider__control gallery-slider__control_left" href="#" role="button"></a>
+    <a class="gallery-slider__control gallery-slider__control_right" href="#" role="button"></a>
+  </div>
+</section>
+
+<section class="questions">
+	<h2 class="questions-title">Часто задаваемые вопросы</h2>
+	<span class="questions--line line"></span>
+	<div class="questions-wrapper">
+		<div class="questions__user">
+			<img src="img/ico-User.jpg" alt="user" width="64" height="64">
+			<p class="questions__user-question">Подойдет ли обучение беременным?</p>
+		</div>
+		<div class="question-naswer">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="64" height="64">
+			<p class="questions__user-naswer">Нет, не для слабонервных беременных детей эпилептиков 
+			</p>
+		</div>
+		<div class="questions__user">
+			<img src="img/ico-User.jpg" alt="user" width="65" height="65">
+			<p class="questions__user-question">Есть ли пробное занятие?</p>
+		</div>
+		<div class="question-naswer">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="65" height="65">
+			<p class="questions__user-naswer">Да, первое занятие пробное.</p>
+		</div>
+		<div class="questions__user ">
+			<img src="img/ico-User.jpg" alt="user" width="65" height="65">
+			<p class="questions__user-question">Есть ли помощь с поиском первых заказов?</p>
+		</div>
+		<div class="question-naswer ">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="65" height="65">
+			<p class="questions__user-naswer">Да. Это может быть как консультации по поиску работы, так и помощь при старте на фрилансе</p>
+		</div>
+		<div class="questions__user ">
+			<img src="img/ico-User.jpg" alt="user" width="65" height="65">
+			<p class="questions__user-question">Подойдет ли обучение беременным?</p>
+		</div>
+		<div class="question-naswer ">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="65" height="65">
+			<p class="questions__user-naswer">Нет, не для слобонервных беременных детей эпилептиков</p>
+		</div>
+		<div class="questions__user questions__user-desctop--mod">
+			<img src="img/ico-User.jpg" alt="user" width="65" height="65">
+			<p class="questions__user-question">Есть ли пробное занятие?</p>
+		</div>
+		<div class="question-naswer questions__user-desctop--mod">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="65" height="65">
+			<p class="questions__user-naswer">Да первое занятие пробное.</p>
+		</div>
+		<div class="questions__user questions__user-desctop--mod">
+			<img src="img/ico-User.jpg" alt="user" width="65" height="65">
+			<p class="questions__user-question">Есть ли помощь с поиском первых заказов?</p>
+		</div>
+		<div class="question-naswer questions__user-desctop--mod">
+			<img src="img/ico-Moderator.jpg" alt="moderator" width="65" height="65">
+			<p class="questions__user-naswer">Да. Это может быть как консультации по поиску работы, так и помощь при старте на фрилансе</p>
+		</div>
+	</div>
+</section>
+<section class="contacts" id="contacts">
+	<div class="contacts-wrapper">
+		<div class="contacts-content">
+			<h2 class="contacts-title">Наши контакты</h2>
+			<span class="contacts--line line"></span>
+			<p class="contacts-text">Вы можете связвться с нами любым удобным способом или заполните форму справа и вы перезвоним</p>
+			<p class="contacts-adress">г. Киев, ул. Владимирская 50, офис 7</p>
+			<p class="contacts-work-time"> Понедельник — пятница, 
+с 10:00 по 19:00</p>
+			<div class="contacts__tel-wrapper">
+			<a href="tel:+380442345355">+38 (044) 234-53-55
+
+</a>
+				<a href="tel:+380638155939">+38 (063) 815-59-39</a>
+	<a href="tel:+380663815019">+38 (066) 381-50-19</a>
+	<a class="contacts__email" href="mailto:info@codeharbor.com.ua">info@codeharbor.com.ua</a>
+	<a class="contacts__skype" href="skype:codeharbor?call"><span>Skype: </span>codeharbor</a>
+						</div>
+						
+	<ul class="contacts__social-list">
+
+		<li class="contacts__social-item"><a href="#" title="instagramm"><img src="img/instagramm.svg"  alt="instagramm"></a></li>
+	
+	<li class="contacts__social-item"><a href="#" title="Twitter"><img src="img/twitter.svg"  alt="Twitter"></a></li>
+	
+	<li class="contacts__social-item"><a href="#"  title="Faceboock"><img src="img/faceboock.svg"  alt="Faceboock"></a></li>
+	
+	<li class="contacts__social-item social-item-desctop--mod"><a href="" title="youtube"><img src="img/youtube.svg"  alt="youtube"></a></li>
+							</ul>
+			</div>
+		<div class="contacts-map">
+		 	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2543.1706123012104!2d30.5292048!3d50.4006579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ea87a8721%3A0x31322dd57f76920c!2zMTFBLCDQv9GA0L7RgdC_LiDQndCw0YPQutC4LCAxMdCQLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1579258793601!5m2!1sru!2sua" width="100%" height="100%"></iframe> 
+		</div>
+	</div>
+	<section class="nav-button">
+	<h3 class="visually-hidden">Кнопка навигации</h3>
+	<a href="#mainHeader">
+	<div class="nav-button-scroll"></div></a>
+</section>
+</section>
+
+
+<footer class="main-footer">
+	<h3 class="visually-hidden">Подвал сайта CODEHARBOR</h3>
+	<div class="main-footer__wrapper">
+		<a href="#mainHeader">
+	<img src="img/logo-footer.svg" alt="logo" class="footer-logo" width="352" height="73"></a>
+	<nav class="footer-nav">
+		<ul class="footer-nav-list">
+			<li class="footer-nav-item"><a href="#command">Команда</a></li>
+			<li class="footer-nav-item"><a href="#programm">Программа</a></li>
+			<li class="footer-nav-item"><a href="#price">Цена</a></li>
+			<li class="footer-nav-item"><a href="#students">Для кого</a></li>
+			<li class="footer-nav-item"><a href="#contacts">Контакты</a></li>
+		</ul>
+	</nav>
+	<p class="footer-copyright">©Code Harbor, 2019</p>
+	</div>
+
+</footer> 
+
+
+
+
+	</main>
+
+
+
+
+
+
+
+
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

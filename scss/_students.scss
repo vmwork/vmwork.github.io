@@ -1,0 +1,180 @@
+.students{
+	
+background-image: url(../img/4monts.jpg);	
+}
+.students-wrapper{
+	width: 320px;
+	margin: 0 auto;
+	min-height: 1664px;
+	
+}
+.students-title{
+	 width: 219px;
+  height: 136px;
+    font-size: 46px;
+  font-weight: 300;
+  line-height: 1.22;
+   color: $color-light-black;
+  text-transform: uppercase;
+  margin-left: 17px;
+  padding-top: 80px;
+}
+.student-line{
+	display: block;
+	margin-top: 10px;
+	margin-left: 15px;
+	height: 3px;
+	border-radius: 5px;
+	width: 35px;
+	background-color: $background-color-gold;
+}
+.sutentds-content{
+	margin-left: 16px;
+	margin-top: 48px;
+	background-color: transparent;
+}
+.content{
+	min-height: 300px;
+	position: relative;
+	width: 288px;
+	border-radius: 10px;
+	margin-top: 16px;
+	background-color: $background-color-white;
+}
+.content img{
+
+	height: 200px;
+width: 288px;	
+}
+.content p{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.33;
+    color: $color-light-black;
+    margin-left: 22px;
+    margin-top: 25px;
+    padding-bottom: 14px;
+
+}
+.content-block1 span{
+	position: absolute;
+	width: 53px;
+	height: 53px;
+	background-image: url(../img/i1.png);
+	right: 18px;
+	bottom: 75px;
+	border-radius: 50%;
+}
+.content-block2 p{
+	width: 225px;
+}
+.content-block3 p{
+	margin-top: 28px;
+	padding-left: 2px;
+	width: 250px;
+}
+.content-block4 {
+	min-height: 363px;
+	
+}
+.content-block4 p{
+
+	font-size: 18px;
+  font-weight: bold;
+  line-height: 1.44;
+}
+
+
+.content-block2 span{
+	position: absolute;
+	width: 58px;
+	height: 53px;
+	background-image: url(../img/i2.png);
+	right: 20px;
+	bottom: 85px;
+}
+.content-block3 span{
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	background-image: url(../img/i3.png);
+	right: 20px;
+	bottom: 110px;
+}
+.content-block4 p{
+	margin-top: 26px;
+	width: 220px;
+}
+.content-block4 span{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/i4.png);
+	right: 22px;
+	bottom: 139px;
+}
+
+@media screen and (min-width:1280px){
+	.students-wrapper{
+	width: 1263px;
+	
+	min-height: 972px;
+	background-repeat: repeat;
+	
+	
+}
+.students-title{
+ margin-left: 15px;
+ padding-top: 200px;
+}
+.student-line{
+	margin-left: 18px;
+	margin-top: 66px;
+}
+.content{
+	width: 283px;
+	height: 350px;
+;
+	
+}
+.content img{
+	width: 283px;
+	min-height: 200px;
+}
+.sutentds-content{
+	margin-top: 85px;
+		display: flex;
+		flex-wrap: wrap;
+		
+		justify-content: space-between;
+}
+
+.content-block1 span,
+.content-block2 span,
+{
+	right: 29px;
+	bottom: 125px;
+}
+.content-block3 span{
+	right: 32px;
+	bottom: 133px;
+}
+.content-block4 span{
+	right: 32px;
+	bottom: 139px;
+}
+.content-block4 br{
+	display: none;
+}
+.content-block3 p{
+	margin-top: 25px;
+	margin-left: 18px;
+
+}
+.content-block4 p{
+	margin-top: 24px;
+	margin-left: 16px;
+width: 255px;
+}
+
+}
